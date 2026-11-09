@@ -1,0 +1,17 @@
+{
+  "name": "sql-injection-demo",
+  "version": "1.0.0",
+  "description": "Webová aplikácia zraniteľná na SQL Injection – nezabezpečená a zabezpečená verzia.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
